@@ -4,6 +4,9 @@ const home = require("./routes/home.js");
 
 const server = express();
 
+const staticHandler = express.static("public");
+server.use(staticHandler);
+
 server.get("/", home.get);
 
 const PORT = 3000;
