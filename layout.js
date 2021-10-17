@@ -1,5 +1,5 @@
 function layout(title, content) {
-	return /* html */ `
+	return /*html*/ `
         <!DOCTYPE html>
         <html lang="en">
           <head>
@@ -7,7 +7,6 @@ function layout(title, content) {
               <meta name="viewport" content="width=device-width, initial-scale=1">
               <title>${title}</title>
           </head>
-
           <body>
             ${content}
           </body>
