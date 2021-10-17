@@ -1,0 +1,26 @@
+{
+  "name": "fac-server-project-template",
+  "version": "1.0.0",
+  "description": "Template for a project with an Express server and a PostgreSQL database based on FAC workshops from the Server, Database and Authentication weeks",
+  "main": "server.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezelpesado/FAC-server-project-template.git"
+  },
+  "keywords": [
+    "FAC",
+    "server",
+    "database",
+    "PostgreSQL",
+    "template"
+  ],
+  "author": "lopezelpesado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopezelpesado/FAC-server-project-template/issues"
+  },
+  "homepage": "https://github.com/lopezelpesado/FAC-server-project-template#readme"
+}
